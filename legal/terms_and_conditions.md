@@ -36,8 +36,6 @@ The Services are intended for users who are at least 18 years old. Persons under
 
 We recommend printing a copy of these Legal Terms for your records.
 
----
-
 # Table of Contents
 
 1. [Our Services](#1-our-services)
@@ -66,15 +64,11 @@ We recommend printing a copy of these Legal Terms for your records.
 24. [Miscellaneous](#24-miscellaneous)
 25. [Contact Us](#25-contact-us)
 
----
-
 # 1. Our Services
 
 The information provided when using the Services is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or would subject us to registration requirements within such jurisdiction or country.
 
 Users accessing the Services from other locations do so on their own initiative and are solely responsible for compliance with local laws where applicable.
-
----
 
 # 2. Intellectual Property Rights
 
@@ -127,8 +121,6 @@ We reserve all rights not expressly granted.
 
 Any breach of these Intellectual Property Rights constitutes a material breach of these Legal Terms and will result in immediate termination of your right to use the Services.
 
----
-
 # 3. User Representations
 
 By using the Services, you represent and warrant that:
@@ -143,8 +135,6 @@ By using the Services, you represent and warrant that:
 
 If information provided is inaccurate or incomplete, we may suspend or terminate your account.
 
----
-
 # 4. User Registration
 
 You may be required to register to use the Services.
@@ -155,8 +145,6 @@ You agree to:
 - Accept responsibility for all activity under your account
 
 We reserve the right to remove or change usernames deemed inappropriate or objectionable.
-
----
 
 # 5. Purchases and Payment
 
@@ -181,13 +169,9 @@ We reserve the right to:
 
 Sales tax may be added where required.
 
----
-
 # 6. Return Policy
 
 Please review our Return Policy prior to making purchases through the Services.
-
----
 
 # 7. Prohibited Activities
 
@@ -204,8 +188,6 @@ You agree not to:
 - Sell or transfer your account
 
 Violation may result in suspension or termination.
-
----
 
 # 8. User Generated Contributions
 
@@ -230,8 +212,6 @@ You agree that Contributions:
 
 We may remove Contributions at our discretion.
 
----
-
 # 9. Contribution Licence
 
 By posting Contributions, you grant us an unrestricted, perpetual, worldwide, royalty-free licence to:
@@ -249,8 +229,6 @@ your Contributions for commercial or non-commercial purposes.
 
 You retain ownership of your Contributions but grant us rights necessary to operate the Services.
 
----
-
 # 10. Guidelines for Reviews
 
 When posting reviews, you agree that:
@@ -261,8 +239,6 @@ When posting reviews, you agree that:
 - Reviews are not misleading or fraudulent
 
 We may remove reviews at our discretion.
-
----
 
 # 11. Third-Party Websites and Content
 
@@ -276,8 +252,6 @@ We do not control or endorse third-party websites and are not responsible for:
 
 Use of third-party websites is at your own risk.
 
----
-
 # 12. Services Management
 
 We reserve the right to:
@@ -287,8 +261,6 @@ We reserve the right to:
 - Remove excessive or harmful content
 - Report unlawful activity to authorities
 
----
-
 # 13. Privacy Policy
 
 Please review our Privacy Policy.
@@ -296,8 +268,6 @@ Please review our Privacy Policy.
 By using the Services, you agree to our Privacy Policy, which forms part of these Legal Terms.
 
 The Services are hosted in South Africa.
-
----
 
 # 14. Term and Termination
 
@@ -311,8 +281,6 @@ We may suspend or terminate access:
 
 We reserve the right to pursue legal remedies.
 
----
-
 # 15. Modifications and Interruptions
 
 We may:
@@ -325,27 +293,19 @@ without notice.
 
 We are not liable for interruptions or downtime.
 
----
-
 # 16. Governing Law
 
 These Legal Terms are governed by the laws of South Africa.
 
 You consent to the jurisdiction of South African courts.
 
----
-
 # 17. Dispute Resolution
 
 Disputes relating to these Legal Terms shall be resolved in South African courts.
 
----
-
 # 18. Corrections
 
 We reserve the right to correct errors, inaccuracies, or omissions on the Services without prior notice.
-
----
 
 # 19. Disclaimer
 
@@ -367,8 +327,6 @@ We are not liable for:
 
 Use the Services at your own risk.
 
----
-
 # 20. Limitations of Liability
 
 To the fullest extent permitted by law:
@@ -377,8 +335,6 @@ To the fullest extent permitted by law:
 - Liability is limited to amounts paid by you to us, if any
 
 Some jurisdictions may not allow certain limitations.
-
----
 
 # 21. Indemnification
 
@@ -389,8 +345,6 @@ You agree to indemnify and hold us harmless against claims arising from:
 - Breach of these Legal Terms
 - Violation of third-party rights
 
----
-
 # 22. User Data
 
 We may maintain data related to your use of the Services.
@@ -399,15 +353,11 @@ You are solely responsible for data you transmit.
 
 We are not liable for loss or corruption of data.
 
----
-
 # 23. Electronic Communications, Transactions, and Signatures
 
 You consent to electronic communications and agree that electronic records satisfy legal writing requirements.
 
 You agree to electronic signatures and transactions.
-
----
 
 # 24. Miscellaneous
 
@@ -416,8 +366,6 @@ These Legal Terms constitute the entire agreement between you and us.
 If any provision is deemed unenforceable, remaining provisions remain valid.
 
 No partnership, agency, or joint venture relationship is created.
-
----
 
 # 25. Contact Us
 

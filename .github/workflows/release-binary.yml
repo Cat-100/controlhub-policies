@@ -1,0 +1,68 @@
+name: Generate HTML and PDF of Policy
+run-name: ${{ github.actor }} is exporting the policy to html+pdf
+
+# Only activate on a versioned tag - such as a release, details here @link https://stackoverflow.com/a/69919067/23210156
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  Build-Binary:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - run: echo "Job was triggered by a ${{ github.event_name }} event."
+      - run: echo "This job is running on a ${{ runner.os }} server hosted by github"
+      - run: echo "The current branch that this job is targeting is ${{ github.ref }}"
+
+      # Checkout to the main branch
+      - name: Check out repository code
+        uses: actions/checkout@v5
+
+      - run: echo "The repo has been cloned to the runner"
+
+      # Install Pandoc
+      - name: Install Pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
+      # Privacy Policy
+      - name: Build Privacy Policy
+        if: startsWith(github.ref_name, 'privacy-policy')
+        run: |
+          pandoc privacy-policy.md -o ${{ github.workspace }}/output/privacy_policy.pdf
+          pandoc privacy-policy.md -o ${{ github.workspace }}/output/privacy-_olicy.html
+
+      # Return Policy
+      - name: Build Return Policy
+        if: startsWith(github.ref_name, 'return-policy')
+        run: |
+          pandoc privacy-policy.md -o ${{ github.workspace }}/output/return_policy.pdf
+          pandoc privacy-policy.md -o ${{ github.workspace }}/output/return_policy.html
+
+      # Terms and Conditions
+      - name: Build ToS
+        if: startsWith(github.ref_name, 'tos-policy')
+        run: |
+          pandoc privacy-policy.md -o ${{ github.workspace }}/output/terms_and_conditions_policy.pdf
+          pandoc privacy-policy.md -o ${{ github.workspace }}/output/terms_and_conditions_policy.html
+
+      # Zip the build output (without including the workspace folder)
+      - name: Zip Policy Output
+        run: zip -r ${{ github.workspace }}/release_policies_${{ github.ref_name }}.zip build
+
+      # Tarball Build Output
+      - name: Tarball Build Output
+        run: tar -czvf ${{ github.workspace }}/release_policies_${{ github.ref_name }}.tar.gz build
+
+      # Upload the converted files to the release
+      - name: Upload to Release
+        uses: softprops/action-gh-release@v2
+        if: github.ref_type == 'tag' # Block to release tags ONLY
+        with:
+          files: |
+            release_policies_${{ github.ref_name }}.zip
+            release_policies_${{ github.ref_name }}.tar.gz

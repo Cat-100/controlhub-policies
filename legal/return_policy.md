@@ -4,13 +4,9 @@
 
 Thank you for your purchase. We hope you are happy with your purchase. However, if you are not completely satisfied with your purchase for any reason, you may return it to us for a full refund or an exchange. Please see below for more information on our return policy.
 
----
-
 # Returns
 
 All returns must be postmarked within seven (7) days of the purchase date. All returned items must be in new and unused condition, with all original tags and labels attached.
-
----
 
 # Return Process
 
@@ -33,8 +29,6 @@ You may also use the prepaid shipping label enclosed with your package.
 
 Return shipping charges will be paid or reimbursed by us.
 
----
-
 # Refunds
 
 After receiving your return and inspecting the condition of your item, we will process your return or exchange.
@@ -43,8 +37,6 @@ Please allow at least fourteen (14) days from the receipt of your item to proces
 
 We will notify you by email once your return has been processed.
 
----
-
 # Exceptions
 
 For defective or damaged products, please contact us at:
@@ -52,8 +44,6 @@ For defective or damaged products, please contact us at:
 [support@controlhub.shop](mailto:support@controlhub.shop)
 
 to arrange a refund or exchange.
-
----
 
 # Questions
 

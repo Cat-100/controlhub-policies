@@ -9,8 +9,6 @@ This Privacy Notice for Prolific Power (PTY) LTD (“we”, “us”, or “our�
 
 If you have any questions or concerns, please contact us at: [support@controlhub.shop](mailto:support@controlhub.shop)
 
----
-
 # Table of Contents
 
 1. [What Information Do We Collect?](#1-what-information-do-we-collect)
@@ -25,8 +23,6 @@ If you have any questions or concerns, please contact us at: [support@controlhub
 10. [Do We Make Updates to This Notice?](#10-do-we-make-updates-to-this-notice)
 11. [How Can You Contact Us About This Notice?](#11-how-can-you-contact-us-about-this-notice)
 12. [How Can You Review, Update, or Delete the Data We Collect From You?](#12-how-can-you-review-update-or-delete-the-data-we-collect-from-you)
-
----
 
 # 1. What Information Do We Collect?
 
@@ -55,8 +51,6 @@ We collect certain information automatically when you visit or use our Services.
 
 Our use of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.
 
----
-
 # 2. How Do We Process Your Information?
 
 We process your information to provide and improve our Services, communicate with you, and meet legal requirements.
@@ -69,8 +63,6 @@ We process your information to provide and improve our Services, communicate wit
 - To secure our Services
 - To improve services and marketing
 - To comply with legal obligations
-
----
 
 # 3. When and With Whom Do We Share Your Personal Information?
 
@@ -85,19 +77,13 @@ We share data with service providers and in specific business circumstances.
 
 **Business Transfers:** We may share your information during company transfers or acquisitions.
 
----
-
 # 4. How Long Do We Keep Your Information?
 
 As long as necessary for the purposes outlined or required by law.
 
----
-
 # 5. How Do We Keep Your Information Safe?
 
 Through technical and organisational security measures. However, no system is 100% secure.
-
----
 
 # 6. Do We Collect Information from Minors?
 
@@ -105,37 +91,25 @@ No, we do not knowingly collect data from children under 18.
 
 Contact us at [support@controlhub.shop](mailto:support@controlhub.shop) if you become aware of such data collection.
 
----
-
 # 7. What Are Your Privacy Rights?
 
 You may review, update, or terminate your account depending on your location and applicable laws.
-
----
 
 # 8. Controls for Do-Not-Track Features
 
 We currently do not respond to Do-Not-Track signals.
 
----
-
 # 9. Do Other Regions Have Specific Privacy Rights?
 
 Region-specific rights may apply depending on local laws.
-
----
 
 # 10. Do We Make Updates to This Notice?
 
 Yes, we will update this notice as necessary to stay compliant with relevant laws.
 
----
-
 # 11. How Can You Contact Us About This Notice?
 
 Contact us at [support@controlhub.shop](mailto:support@controlhub.shop).
-
----
 
 # 12. How Can You Review, Update, or Delete the Data We Collect From You?
 
