@@ -7,7 +7,7 @@ This Privacy Notice for Prolific Power (PTY) LTD (“we”, “us”, or “our�
 - Visit our website at `controlhub.shop`, or any website of ours that links to this Privacy Notice
 - Engage with us in other related ways, including any sales, marketing, or events
 
-If you have any questions or concerns, please contact us at: `support@controlhub.shop`
+If you have any questions or concerns, please contact us at: [support@controlhub.shop](mailto:support@controlhub.shop)
 
 ---
 
@@ -103,7 +103,7 @@ Through technical and organisational security measures. However, no system is 10
 
 No, we do not knowingly collect data from children under 18.
 
-Contact us at `support@controlhub.shop` if you become aware of such data collection.
+Contact us at [support@controlhub.shop](mailto:support@controlhub.shop) if you become aware of such data collection.
 
 ---
 
@@ -133,7 +133,7 @@ Yes, we will update this notice as necessary to stay compliant with relevant law
 
 # 11. How Can You Contact Us About This Notice?
 
-Contact us at `support@controlhub.shop`.
+Contact us at [support@controlhub.shop](mailto:support@controlhub.shop).
 
 ---
 
