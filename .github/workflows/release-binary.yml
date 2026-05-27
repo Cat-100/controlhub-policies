@@ -7,6 +7,14 @@ on:
     tags:
       - "*-v*.*.*"
   workflow_dispatch:
+    inputs:
+      policy:
+        required: true
+        type: choice
+        options:
+          - privacy-policy
+          - return-policy
+          - tos-policy
 jobs:
   Generate-Docs:
     runs-on: ubuntu-latest
