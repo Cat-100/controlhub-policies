@@ -15,11 +15,16 @@ on:
           - privacy-policy
           - return-policy
           - tos-policy
+
 jobs:
   Generate-Docs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
+    # Unified selector for BOTH tag + manual runs
+    env:
+      POLICY: ${{ github.event_name == 'workflow_dispatch' && inputs.policy || github.ref_name }}
 
     steps:
       - run: echo "Job was triggered by a ${{ github.event_name }} event."
@@ -44,23 +49,23 @@ jobs:
 
       # Privacy Policy
       - name: Build Privacy Policy
-        if: startsWith(github.ref_name, 'privacy-policy')
+        if: contains(env.POLICY, 'privacy-policy')
         run: pandoc privacy-policy.md -o ${{ github.workspace }}/output/privacy-policy.html
 
       # Return Policy
       - name: Build Return Policy
-        if: startsWith(github.ref_name, 'return-policy')
+        if: contains(env.POLICY, 'return-policy')
         run: pandoc return-policy.md -o ${{ github.workspace }}/output/return_policy.html
 
       # Terms and Conditions
       - name: Build ToS
-        if: startsWith(github.ref_name, 'tos-policy')
+        if: contains(env.POLICY, 'tos-policy')
         run: pandoc tos-policy.md -o ${{ github.workspace }}/output/terms_and_conditions_policy.html
 
       # Zip the build output (without including the workspace folder)
       - name: Zip Policy Output
         run: |
-          zip release_policies_${{ github.ref_name }}.zip \
+          zip release_policies_${{ env.POLICY }}.zip \
             output/privacy-policy.html \
             output/return_policy.html \
             output/terms_and_conditions_policy.html
@@ -68,7 +73,7 @@ jobs:
       # Tarball Build Output
       - name: Tarball Build Output
         run: |
-          tar -czvf release_policies_${{ github.ref_name }}.tar.gz \
+          tar -czvf release_policies_${{ env.POLICY }}.tar.gz \
             output/privacy-policy.html \
             output/return_policy.html \
             output/terms_and_conditions_policy.html
@@ -79,5 +84,5 @@ jobs:
         if: github.ref_type == 'tag' # Block to release tags ONLY
         with:
           files: |
-            release_policies_${{ github.ref_name }}.zip
-            release_policies_${{ github.ref_name }}.tar.gz
+            release_policies_${{ env.POLICY }}.zip
+            release_policies_${{ env.POLICY }}.tar.gz
