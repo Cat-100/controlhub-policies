@@ -32,23 +32,17 @@ jobs:
       # Privacy Policy
       - name: Build Privacy Policy
         if: startsWith(github.ref_name, 'privacy-policy')
-        run: |
-          pandoc privacy-policy.md -o ${{ github.workspace }}/output/privacy_policy.pdf
-          pandoc privacy-policy.md -o ${{ github.workspace }}/output/privacy-_olicy.html
+        run: pandoc privacy-policy.md -o ${{ github.workspace }}/output/privacy-_olicy.html
 
       # Return Policy
       - name: Build Return Policy
         if: startsWith(github.ref_name, 'return-policy')
-        run: |
-          pandoc privacy-policy.md -o ${{ github.workspace }}/output/return_policy.pdf
-          pandoc privacy-policy.md -o ${{ github.workspace }}/output/return_policy.html
+        run: pandoc privacy-policy.md -o ${{ github.workspace }}/output/return_policy.html
 
       # Terms and Conditions
       - name: Build ToS
         if: startsWith(github.ref_name, 'tos-policy')
-        run: |
-          pandoc privacy-policy.md -o ${{ github.workspace }}/output/terms_and_conditions_policy.pdf
-          pandoc privacy-policy.md -o ${{ github.workspace }}/output/terms_and_conditions_policy.html
+        run: pandoc privacy-policy.md -o ${{ github.workspace }}/output/terms_and_conditions_policy.html
 
       # Zip the build output (without including the workspace folder)
       - name: Zip Policy Output
