@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - run: echo "Job was triggered by a ${{ github.event_name }} event."
       - run: echo "This job is running on a ${{ runner.os }} server hosted by github"
@@ -29,28 +30,32 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pandoc
 
+      # Create output directory
+      - name: Create output directory
+        run: mkdir -p output
+
       # Privacy Policy
       - name: Build Privacy Policy
         if: startsWith(github.ref_name, 'privacy-policy')
-        run: pandoc privacy-policy.md -o ${{ github.workspace }}/output/privacy-_olicy.html
+        run: pandoc privacy-policy.md -o ${{ github.workspace }}/output/privacy-policy.html
 
       # Return Policy
       - name: Build Return Policy
         if: startsWith(github.ref_name, 'return-policy')
-        run: pandoc privacy-policy.md -o ${{ github.workspace }}/output/return_policy.html
+        run: pandoc return-policy.md -o ${{ github.workspace }}/output/return_policy.html
 
       # Terms and Conditions
       - name: Build ToS
         if: startsWith(github.ref_name, 'tos-policy')
-        run: pandoc privacy-policy.md -o ${{ github.workspace }}/output/terms_and_conditions_policy.html
+        run: pandoc tos-policy.md -o ${{ github.workspace }}/output/terms_and_conditions_policy.html
 
       # Zip the build output (without including the workspace folder)
       - name: Zip Policy Output
-        run: zip -r ${{ github.workspace }}/release_policies_${{ github.ref_name }}.zip build
+        run: zip -r ${{ github.workspace }}/release_policies_${{ github.ref_name }}.zip output
 
       # Tarball Build Output
       - name: Tarball Build Output
-        run: tar -czvf ${{ github.workspace }}/release_policies_${{ github.ref_name }}.tar.gz build
+        run: tar -czvf ${{ github.workspace }}/release_policies_${{ github.ref_name }}.tar.gz output
 
       # Upload the converted files to the release
       - name: Upload to Release
