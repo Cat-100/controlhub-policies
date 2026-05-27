@@ -1,6 +1,6 @@
 # Return Policy
 
-**Last updated:** March 06, 2025
+**Last updated:** 27 May 2026
 
 Thank you for your purchase. We hope you are happy with your purchase. However, if you are not completely satisfied with your purchase for any reason, you may return it to us for a full refund or an exchange. Please see below for more information on our return policy.
 
@@ -10,11 +10,7 @@ All returns must be postmarked within seven (7) days of the purchase date. All r
 
 # Return Process
 
-To return an item, please email customer service at:
-
-[support@controlhub.shop](mailto:support@controlhub.shop)
-
-to obtain a Return Merchandise Authorisation (RMA) number.
+To return an item, please email customer service at, [support@controlhub.shop](mailto:support@controlhub.shop), to obtain a Return Merchandise Authorisation (RMA) number.
 
 After receiving an RMA number, place the item securely in its original packaging along with the proof of purchase, and send your return to the following address:
 
@@ -50,7 +46,3 @@ to arrange a refund or exchange.
 If you have any questions concerning our return policy, please contact us at:
 
 [support@controlhub.shop](mailto:support@controlhub.shop)
-
-```
-
-```

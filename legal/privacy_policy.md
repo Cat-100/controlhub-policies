@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last Updated:** May 25, 2026
+**Last Updated:** 25 May 2026
 
 This Privacy Notice for Prolific Power (PTY) LTD (“we”, “us”, or “our”), describes how and why we might access, collect, store, use, and/or share (“process”) your personal information when you use our services (“Services”), including when you:
 
