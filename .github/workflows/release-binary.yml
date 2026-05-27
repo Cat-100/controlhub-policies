@@ -51,11 +51,19 @@ jobs:
 
       # Zip the build output (without including the workspace folder)
       - name: Zip Policy Output
-        run: zip -r ${{ github.workspace }}/release_policies_${{ github.ref_name }}.zip output
+        run: |
+          zip release_policies_${{ github.ref_name }}.zip \
+            output/privacy-policy.html \
+            output/return_policy.html \
+            output/terms_and_conditions_policy.html
 
       # Tarball Build Output
       - name: Tarball Build Output
-        run: tar -czvf ${{ github.workspace }}/release_policies_${{ github.ref_name }}.tar.gz output
+        run: |
+          tar -czvf release_policies_${{ github.ref_name }}.tar.gz \
+            output/privacy-policy.html \
+            output/return_policy.html \
+            output/terms_and_conditions_policy.html
 
       # Upload the converted files to the release
       - name: Upload to Release
