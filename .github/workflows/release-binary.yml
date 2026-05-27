@@ -50,17 +50,17 @@ jobs:
       # Privacy Policy
       - name: Build Privacy Policy
         if: contains(env.POLICY, 'privacy-policy')
-        run: pandoc privacy-policy.md -o ${{ github.workspace }}/output/privacy-policy.html
+        run: pandoc legal/privacy-policy.md -o ${{ github.workspace }}/output/privacy-policy.html
 
       # Return Policy
       - name: Build Return Policy
         if: contains(env.POLICY, 'return-policy')
-        run: pandoc return-policy.md -o ${{ github.workspace }}/output/return_policy.html
+        run: pandoc legal/return-policy.md -o ${{ github.workspace }}/output/return_policy.html
 
       # Terms and Conditions
       - name: Build ToS
         if: contains(env.POLICY, 'tos-policy')
-        run: pandoc tos-policy.md -o ${{ github.workspace }}/output/terms_and_conditions_policy.html
+        run: pandoc legal/terms_and_conditions.md -o ${{ github.workspace }}/output/terms_and_conditions_policy.html
 
       # Zip the build output (without including the workspace folder)
       - name: Zip Policy Output
