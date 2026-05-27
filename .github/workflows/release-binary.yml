@@ -65,18 +65,12 @@ jobs:
       # Zip the build output (without including the workspace folder)
       - name: Zip Policy Output
         run: |
-          zip release_policies_${{ env.POLICY }}.zip \
-            output/privacy_policy.html \
-            output/return_policy.html \
-            output/terms_and_conditions_policy.html
+          zip release_policies_${{ env.POLICY }}.zip output
 
       # Tarball Build Output
       - name: Tarball Build Output
         run: |
-          tar -czvf release_policies_${{ env.POLICY }}.tar.gz \
-            output/privacy_policy.html \
-            output/return_policy.html \
-            output/terms_and_conditions_policy.html
+          tar -czvf release_policies_${{ env.POLICY }}.tar.gz output
 
       # Upload the converted files to the release
       - name: Upload to Release
