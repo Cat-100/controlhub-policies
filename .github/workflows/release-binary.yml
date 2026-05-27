@@ -5,7 +5,7 @@ run-name: ${{ github.actor }} is exporting the policy to html+pdf
 on:
   push:
     tags:
-      - "v*.*.*"
+      - "*-v*.*.*"
   workflow_dispatch:
 jobs:
   Generate-Docs:
